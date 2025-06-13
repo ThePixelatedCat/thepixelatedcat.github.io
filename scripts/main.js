@@ -74,4 +74,6 @@ const getToken = async code => {
   localStorage.setItem('access_token', response.access_token);
 }
 
-myHeading.textContent = localStorage.getItem('access_token')
+await getToken(code)
+
+myHeading.textContent = localStorage.getItem('access_token');
