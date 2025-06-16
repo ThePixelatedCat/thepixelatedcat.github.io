@@ -10,7 +10,7 @@ h1 {
   font-family: 'Bauhaus 93', sans-serif;
 }
 
-p, li {
+p, li, samp {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
