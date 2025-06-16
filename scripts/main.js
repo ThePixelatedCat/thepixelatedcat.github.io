@@ -9,6 +9,3 @@ fetch(steamFetchURL)
     .then(json => json.parse())
     .then(parsedJson => lastPlayed.textContent = parsedJson.games[0].name)
     .catch(err => {console.error(err); lastPlayed.textContent = 'Failed to fetch last played game :('})
-
-
-
